@@ -2,7 +2,7 @@ import axios from 'axios'
 import { useEffect, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 
-const URI= 'despuiesborrar-production.up.railway.app'
+const URI= 'despuiesborrar-production.up.railway.app/'
 
 const CompEditBlog=()=>{
     const [nombre_producto, setNombreProducto]= useState('')

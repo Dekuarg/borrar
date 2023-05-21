@@ -3,7 +3,7 @@ import axios from 'axios'
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 
-const URI= 'despuiesborrar-production.up.railway.app'
+const URI= 'despuiesborrar-production.up.railway.app/'
 
 const CompShowStock = () => {
     const [productos,setProducto] = useState([])
