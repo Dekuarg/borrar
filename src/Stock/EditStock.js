@@ -26,6 +26,7 @@ const CompEditBlog=()=>{
 
     useEffect(()=>{
         getProductoById()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     },[])
 
     const getProductoById= async()=>{
