@@ -2,7 +2,7 @@ import axios from 'axios'
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 
-const URI= 'http://localhost:8000/stock/'
+const URI= 'despuiesborrar-production.up.railway.app'
 
 const CompCreateStock=()=>{
  
